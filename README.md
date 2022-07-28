@@ -7,7 +7,8 @@ Convert PNG to JPG GO library
 
 ## Usage
 
-    ```go
+```go
+  
     package main
 
     import "github.com/ser163/png2j"
@@ -19,10 +20,13 @@ Convert PNG to JPG GO library
             panic(err)
         }
         // Resize JPG image
-        err := png2j.ReSizeImage("./image/go.png.jpg", 948, 418, "./image/go_big.png.jpg")
-        if err != nil {
-            panic(err)
+        err2 := png2j.ReSizeImage("./image/go.png.jpg", 948, 418, "./image/go_big.png.jpg")
+        if err2 != nil {
+            panic(err2)
         }
     }
-    ```
-    
+```
+
+       
+   
+   
