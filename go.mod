@@ -1,4 +1,4 @@
-module png2j
+module github.com/ser163/png2j
 
 go 1.18
 
