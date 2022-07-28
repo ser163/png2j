@@ -8,6 +8,8 @@ Convert PNG to JPG GO library
 ## Usage
 
     ```go
+    package main
+
     import "github.com/ser163/png2j"
 
     func main() {
