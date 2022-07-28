@@ -23,7 +23,10 @@ func ReSizeImage(srcFile string, width uint, height uint, destFile string) error
 		fmt.Println("Decode:", err)
 		return err
 	}
-	file.Close()
+	err = file.Close()
+	if err != nil {
+		return err
+	}
 
 	m := resizeImage(width, height, img)
 	out, err := os.Create(destFile)
