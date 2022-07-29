@@ -6,7 +6,7 @@ Convert PNG to JPG GO library
     png2j is a Go library to convert PNG to JPG.
 ## Install
 ```shell
-  go get -u github.com/jteeuwen/png2j
+  go get -u github.com/ser163/png2j
 ```     
 
 ## Usage
